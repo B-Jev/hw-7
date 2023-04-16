@@ -18,7 +18,7 @@ public class hw7 {
         System.out.println("Название книги - " + starKings.getNameBook());
         System.out.println("Дата публикации - " + starKings.getYearBook());
 
-        starKings.setYearBook(1949);
+        starKings.setYearBook(1948);
         System.out.println("Дата публикации - " + starKings.getYearBook());
     }
 }
