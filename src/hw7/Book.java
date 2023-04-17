@@ -2,11 +2,13 @@ package hw7;
 
 public class Book {
     private String nameBook;
+    private Author author;
     private int yearBook;
 
-    public Book(String nameBook, int yearBook) {
+    public Book(String nameBook, int yearBook, Author author) {
         this.nameBook = nameBook;
         this.yearBook = yearBook;
+        this.author = author;
     }
 
     public String getNameBook() {
@@ -19,6 +21,10 @@ public class Book {
 
     public void setYearBook(int yearBook) {
         this.yearBook = yearBook;
+    }
+
+    public Author getAuthor() {
+        return author;
     }
 
     public void setNameBook(String nameBook) {

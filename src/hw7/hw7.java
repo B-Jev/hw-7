@@ -5,10 +5,12 @@ public class hw7 {
 
     public static void main(String[] args) {
         Author tolstoi = new Author("Лев", "Толстой");
-        Book warAndPeace = new Book("Воина и мир", 1867);
+        Book warAndPeace = new Book("Воина и мир", 1867,tolstoi);
 
         Author gamilton = new Author("Эдмонд", "Гамильтон");
-        Book starKings = new Book("Звёздные короли", 1947);
+        Book starKings = new Book("Звёздные короли", 1947,gamilton);
+
+
 
         System.out.println("Автор книги - " + tolstoi.getName() + " " + tolstoi.getSurname());
         System.out.println("Название книги - " + warAndPeace.getNameBook());
