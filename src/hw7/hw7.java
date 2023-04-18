@@ -20,7 +20,16 @@ public class hw7 {
         System.out.println("Название книги - " + starKings.getNameBook());
         System.out.println("Дата публикации - " + starKings.getYearBook());
 
-        starKings.setYearBook(1948);
+        starKings.setYearBook(1950);
         System.out.println("Дата публикации - " + starKings.getYearBook());
+
+        System.out.println(tolstoi);
+        System.out.println(warAndPeace);
+        System.out.println(gamilton);
+        System.out.println(starKings);
+
+        System.out.println(tolstoi.equals(gamilton));
+        System.out.println(warAndPeace.equals(starKings));
+
     }
 }
